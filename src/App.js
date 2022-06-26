@@ -95,7 +95,7 @@ function App() {
         <div className="row">
           <div className="col-6">
             <h2 style={{textAlign: 'center'}}>Lista de Usuarios</h2>
-            <ListaUsuarios usuario={usuario} setUsuarios={setUsuarios} usuarios={usuarios} />
+            <ListaUsuarios usuarios={usuarios} />
           </div>
           <div className="col-6 chat-register border mt-2 mb-2">
             <HeaderForm/>

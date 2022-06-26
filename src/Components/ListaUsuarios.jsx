@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ListaUsuarios = ({usuario, setUsuarios, usuarios}) => {
+const ListaUsuarios = ({ usuarios}) => {
     return ( 
         <table className="table">
              <thead>
